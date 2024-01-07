@@ -1,0 +1,21 @@
+:root {
+    --black1: 
+    --black2:
+    --cyan:
+}
+* {
+    background-color: bisque;
+}
+body {
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
+  }
