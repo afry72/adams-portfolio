@@ -1,13 +1,47 @@
 :root {
-    --black1: 
-    --black2:
-    --cyan:
+    --blackbody: #1c1c1c;
+    --blacktrim: #040404;
+    --cyan: #00999c;
+    --text: #ffffff;
 }
+
 * {
-    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 2%;
+    background-color: var(--blacktrim);
+    color: var(--cyan);
+    font-size: 200%;
+}
+
+.header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    float: right;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+a {
+    color: var(--cyan);
 }
 body {
+    color: var(--text);
+    background-color: var(--blackbody);
+}
 
+#about-me{
+    padding-block: 10px;
+    margin-left: 5%;
 }
 
 @media screen and (max-width: 768px) {
