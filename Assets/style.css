@@ -34,14 +34,83 @@
 a {
     color: var(--cyan);
 }
+
 body {
     color: var(--text);
     background-color: var(--blackbody);
 }
 
+.banner {
+
+}
+
 #about-me{
+    border: dashed var(--cyan);
+    margin-top: 5px;
     padding-block: 10px;
     margin-left: 5%;
+    margin-right: 5%;
+}
+
+#about-me h2 {
+    margin-left: 10px;
+}
+
+#about-me p {
+    margin-left: 2px;
+}
+
+#work {
+    border: dashed var(--cyan);
+    padding-block: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#work h2 {
+    margin-left: 10px;
+}
+
+#resume{
+    border: dashed var(--cyan);
+    padding-block: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#resume a {
+    margin-left: 2px;
+}
+
+#resume h2 {
+    margin-left: 10px;
+}
+
+#contact{
+    border: dashed var(--cyan);
+    padding-block: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#contact h3 {
+    margin-left: 2px;
+}
+
+#contact h2 {
+    margin-left: 10px;
+}
+
+
+#contact h3 {
+    font-size: 80%;
+}
+
+footer {
+
 }
 
 @media screen and (max-width: 768px) {
