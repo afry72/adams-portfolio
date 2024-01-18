@@ -33,8 +33,10 @@
     margin-left: 25px;
 }
 
-a {
+.header nav ul li a {
+    text-decoration: none;
     color: var(--cyan);
+    
 }
 
 /**/
@@ -87,6 +89,7 @@ body {
     flex-wrap: wrap;
 }
 
+/**/
 
 #large-box {
     justify-content: center;
@@ -102,7 +105,11 @@ body {
     background-repeat: no-repeat;
 }
 
+/**/
+
 #large-box:hover {
+    width: 225px;
+    height: 225px;
     border: 5px solid var(--cyan);
 }
 
@@ -144,12 +151,16 @@ body {
 }
 
 #small-box:hover {
+    width: 175px;
+    height: 175px;
     border: 5px solid var(--cyan);
 }
 
 #work h2 {
     margin-left: 10px;
 }
+
+/**/
 
 #resume{
     border: dashed var(--cyan);
@@ -162,10 +173,12 @@ body {
 #resume a {
     margin-left: 2px;
     color: var(--text);
-    text-decoration: wavy;
+    text-decoration: none;
+    border: dotted 1px;
 }
 
 #resume h2 {
+    margin-bottom: 5px;
     margin-left: 10px;
 }
 
