@@ -92,11 +92,14 @@ body {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 5px 5px 5px 5px;
     width: 200px;
     height: 200px;
     border: 4px solid var(--blacktrim);
-    background-image: url(./marketing.png);
+    background-image: url(./randomstock.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #large-box:hover {
@@ -114,14 +117,30 @@ body {
 }
 
 #small-box {
+    justify-content: center;
     text-align: center;
     align-items: center;
+    display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 5px 5px 5px 5px;
     width: 150px;
     height: 150px;
     background-image: url(./javascript.jpg);
     border: 4px solid var(--blacktrim);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#small-box a {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+    
 }
 
 #small-box:hover {
@@ -142,6 +161,8 @@ body {
 
 #resume a {
     margin-left: 2px;
+    color: var(--text);
+    text-decoration: wavy;
 }
 
 #resume h2 {
