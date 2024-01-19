@@ -5,7 +5,7 @@
     --text: #ffffff;
 }
 
-/**/
+/*using the * tag makes it really easy to effect everything in the HTML with any effect that you want, in this case i used it to make everything one cohesive font*/
 
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -20,6 +20,8 @@
     color: var(--cyan);
     font-size: 200%;
 }
+
+/*the nav section allows a prospective employer to quickly skim through and navigate the different sections of the portfolio*/
 
 .header nav{
     padding-top: 15px;
@@ -38,8 +40,6 @@
     color: var(--cyan);
     
 }
-
-/**/
 
 .banner {
     background-image: url(./banner.jpg);
@@ -89,7 +89,7 @@ body {
     flex-wrap: wrap;
 }
 
-/**/
+/*creating the flex boxes was easily the hardest part of doing this entire project, balancing the margins and sizes and getting them to cooperate with the images was a difficult but useful process */
 
 #large-box {
     justify-content: center;
@@ -105,7 +105,7 @@ body {
     background-repeat: no-repeat;
 }
 
-/**/
+/*using the :hover function i was able to make it so a user can easily see which box they are about to click*/
 
 #large-box:hover {
     width: 225px;
@@ -160,7 +160,7 @@ body {
     margin-left: 10px;
 }
 
-/**/
+/*i wanted to put my all 3 of my resumes in here since i have done a lot of work in many different fields and it would be easy and convenient to be able to get a concise and specific view of the work ive done, once i have created those resumes i will be adding the links in*/
 
 #resume{
     border: dashed var(--cyan);
@@ -210,7 +210,7 @@ footer {
     margin-bottom: 100px;
 }
 
-/**/
+/*using the media screen function allows me to make sure my website will be easily viewable in any format */
 
 @media screen and (max-width: 768px) {
     header {
